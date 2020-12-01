@@ -1,0 +1,43 @@
+﻿[{
+    "id" : "1",
+    "lotteryGuest" : "",
+    "prize" : "iphone12 128g",
+    "amount" : "1",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "2",
+    "lotteryGuest" : "",
+    "prize" : "极米z6x投影仪",
+    "amount" : "3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "3",
+    "lotteryGuest" : "",
+    "prize" : "AirPods pro降噪耳机",
+    "amount" : "8",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "4",
+    "lotteryGuest" : "",
+    "prize" : "洁碧水牙线家用wp-660",
+    "amount" : "14",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "5",
+    "lotteryGuest" : "",
+    "prize" : "飞利浦取暖器",
+    "amount" : "8",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "6",
+    "lotteryGuest" : "",
+    "prize" : "雀巢X星巴克胶囊咖啡机",
+    "amount" : "8",
+    "editFlag" : false,
+    "startFlag" : true
+}]

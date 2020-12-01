@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>抽奖添加</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="./layui/css/layui.css" media="all" />
+</head>
+
+<body class="childrenBody">
+	<form class="layui-form" style="width:80%;">
+		<input type="hidden" name="editFlag" value="true">
+		<input type="hidden" name="startFlag" value="true">
+		<div class="layui-form-item">
+			<label class="layui-form-label">序号</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" name="id" lay-verify="number" placeholder="请输入序号">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">抽奖人</label>
+			<div class="layui-input-block">
+				<input type="tel" class="layui-input" name="lotteryGuest" lay-verify="required" placeholder="请输入抽奖人">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">奖品名称</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" name="prize" lay-verify="required" placeholder="请输入奖品名称">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">奖品数量</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" name="amount" lay-verify="number" placeholder="请输入奖品数量">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<div class="layui-input-block">
+				<button class="layui-btn" lay-submit="" lay-filter="addRule">立即提交</button>
+				<button type="reset" class="layui-btn layui-btn-primary">重置</button>
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript" src="./layui/layui.js"></script>
+	<script type="text/javascript">
+
+		var jsonStr = getRequestParam("jsonStr");
+		var rule = null;
+
+		layui.config({
+			base: "js/"
+		}).use(['form', 'layer', 'jquery'], function () {
+			var form = layui.form,
+				layer = layui.layer,
+				$ = layui.jquery;
+			if (jsonStr) {
+				rule = JSON.parse(decodeURI(decodeURI(jsonStr)));
+				$("#id").val(rule.id);
+				$("#lotteryGuest").val(rule.lotteryGuest);
+				$("#prize").val(rule.prize);
+				$("#amount").val(rule.amount);
+			}
+
+			form.on("submit(addRule)", function (data) {
+				var rule = data.field;
+				var ruleData = JSON.parse(sessionStorage.getItem("ruleData"));
+				//是否添加过信息
+				for (var i = 0; i < ruleData.length; i++) {
+					if (ruleData[i].id == rule.id) {
+						layer.msg("添加失败，该序号已存在！");
+						return false;
+					}
+				}
+				ruleData.unshift(rule);
+				sessionStorage.setItem("ruleData", JSON.stringify(ruleData));
+				//弹出loading
+				var index = top.layer.msg('数据提交中，请稍候', { icon: 16, time: false, shade: 0.8 });
+				setTimeout(function () {
+					top.layer.close(index);
+					top.layer.msg("抽奖添加成功！");
+					layer.closeAll("iframe");
+					//刷新父页面
+					parent.location.reload();
+				}, 1000);
+				return false;
+			})
+		})
+
+		function getRequestParam(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null) return unescape(r[2]); return null;
+		}
+	</script>
+</body>
+
+</html>
