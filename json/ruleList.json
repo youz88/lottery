@@ -1,43 +1,290 @@
 ﻿[{
     "id" : "1",
     "lotteryGuest" : "",
-    "prize" : "iphone12 128g",
-    "amount" : "1",
+    "prize" : "搅拌机",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
     "id" : "2",
     "lotteryGuest" : "",
-    "prize" : "极米z6x投影仪",
-    "amount" : "3",
+    "prize" : "蓝牙音箱灯",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
     "editFlag" : false,
     "startFlag" : true
 },{
     "id" : "3",
     "lotteryGuest" : "",
-    "prize" : "AirPods pro降噪耳机",
-    "amount" : "8",
+    "prize" : "血压计",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
     "id" : "4",
     "lotteryGuest" : "",
-    "prize" : "洁碧水牙线家用wp-660",
-    "amount" : "14",
+    "prize" : "剃须刀",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
     "id" : "5",
     "lotteryGuest" : "",
-    "prize" : "飞利浦取暖器",
-    "amount" : "8",
+    "prize" : "电热水瓶",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
     "id" : "6",
     "lotteryGuest" : "",
-    "prize" : "雀巢X星巴克胶囊咖啡机",
-    "amount" : "8",
+    "prize" : "电动牙刷",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "7",
+    "lotteryGuest" : "",
+    "prize" : "台灯",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "8",
+    "lotteryGuest" : "",
+    "prize" : "杀菌灯",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "9",
+    "lotteryGuest" : "",
+    "prize" : "挂烫机",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "10",
+    "lotteryGuest" : "",
+    "prize" : "冲牙器",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "11",
+    "lotteryGuest" : "",
+    "prize" : "颈椎按摩器",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "12",
+    "lotteryGuest" : "",
+    "prize" : "咖啡机",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "13",
+    "lotteryGuest" : "",
+    "prize" : "电饭煲",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "14",
+    "lotteryGuest" : "",
+    "prize" : "吸尘器",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "15",
+    "lotteryGuest" : "",
+    "prize" : "电子猫眼",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "16",
+    "lotteryGuest" : "",
+    "prize" : "净水器",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "17",
+    "lotteryGuest" : "",
+    "prize" : "电压力锅",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "18",
+    "lotteryGuest" : "",
+    "prize" : "卷发棒",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "19",
+    "lotteryGuest" : "",
+    "prize" : "渗透仪",
+    "amount" : "20",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "20",
+    "lotteryGuest" : "",
+    "prize" : "台式电动洗碗机",
+    "amount" : "20",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "21",
+    "lotteryGuest" : "",
+    "prize" : "蒸烤箱",
+    "amount" : "10",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "22",
+    "lotteryGuest" : "",
+    "prize" : "电子锁",
+    "amount" : "10",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "23",
+    "lotteryGuest" : "",
+    "prize" : "华为手环4-pro",
+    "amount" : "30",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "24",
+    "lotteryGuest" : "",
+    "prize" : "华为儿童电话手表-儿童电话手表3s",
+    "amount" : "20",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "25",
+    "lotteryGuest" : "",
+    "prize" : "华为蓝牙耳机-FreeBuds3 无线",
+    "amount" : "20",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "26",
+    "lotteryGuest" : "",
+    "prize" : "大疆云台-DJI OM 4",
+    "amount" : "20",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "27",
+    "lotteryGuest" : "",
+    "prize" : "大疆无人机-Mavic Air 2 畅飞套装",
+    "amount" : "5",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "28",
+    "lotteryGuest" : "",
+    "prize" : "小米-扫地机器人扫拖一体",
+    "amount" : "10",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
+    "editFlag" : false,
+    "startFlag" : true
+},{
+    "id" : "29",
+    "lotteryGuest" : "",
+    "prize" : "小米-定制版Ninebot 九号平衡车",
+    "amount" : "10",
+    "image" : "a.jpg",
+    "activeImage" : "a.jpg",
+    "activeMusic" : "a.mp3",
     "editFlag" : false,
     "startFlag" : true
 }]
