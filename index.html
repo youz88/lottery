@@ -5,7 +5,7 @@
     <meta name="screen-orientation" content="portrait">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
-    <title>抽奖测试demo</title>
+    <title>抽奖</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/wall.css">
     <style type="text/css">
@@ -159,7 +159,6 @@
         }
 
         .start {
-            background: url("./img/active.gif") no-repeat;
             background-size: 100% 100%;
             background-size: cover;
             width: 50px;
@@ -178,16 +177,16 @@
     <div id="result" class="result">
     </div>
     <div id="content">
-        <div id="start" class="start" @click="toggle"></div>
+        <div id="start" class="start" @click="toggle">
+            <img v-bind:src="rule.image" width="50" height="50">
+        </div>
         <div id="tools" class="tools">
             <div @click="onClick(rule.amount)" class="pure-button" :class="{'button-error': selected == rule.amount}">
                 {{rule.prize}}
             </div>
         </div>
+        <audio id="music" v-bind:src="rule.activeMusic" controls="controls" preload hidden></audio>
     </div>
-    <audio id="music" controls="controls" autoplay="autoplay" preload hidden>
-        <source src="music/bg.mp3" />
-    </audio>
     <script type="text/javascript" src="js/zepto.js"></script>
     <script type="text/javascript" src="js/vue.js"></script>
     <script type="text/javascript" src="js/tagcanvas.js"></script>
@@ -245,7 +244,7 @@
                         return m.name + '<br/>' + m.phone;
                     });
                 localStorage.setItem('choosed', JSON.stringify(choosed));
-                console.log(ret)
+                // console.log(ret)
                 return ret;
             };
             var canvas = document.createElement('canvas');
@@ -261,7 +260,6 @@
                     selected: rule.amount,
                     running: false,
                     rule: rule,
-                    amount: 1
                 },
                 mounted() {
                     canvas.innerHTML = createHTML();
@@ -285,6 +283,8 @@
                     },
                     toggle: function () {
                         if (this.running) {
+                            var audio = document.getElementById('music');
+                            audio.pause();
                             $('#start').css('display', 'none');
                             TagCanvas.SetSpeed('myCanvas', speed());
                             var ret = lottery(this.selected);
@@ -301,13 +301,15 @@
                                 $('#main').addClass('mask');
                             }, 300);
                         } else {
+                            var audio = document.getElementById('music');
+                            audio.play();
                             $('#start').css('display', 'none');
                             $('#main').removeClass('mask');
                             TagCanvas.SetSpeed('myCanvas', [5, 1]);
                             var _this = this;
                             setTimeout(function () {
                                 _this.toggle();
-                            }, 3000);
+                            }, 7000);
                         }
                         this.running = !this.running;
                     }
@@ -323,9 +325,9 @@
             }, 1000);
         })();
 
-        var audio = document.getElementById('music');
-        audio.play(); // 播放
-        // audio.pause(); // 暂停
+        // var audio = document.getElementById('music');
+        // audio.play(); // 播放
+        // // audio.pause(); // 暂停
     </script>
 </body>
 
