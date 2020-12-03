@@ -4,7 +4,8 @@
 <head>
     <meta name="screen-orientation" content="portrait">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
     <title>抽奖</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/wall.css">
@@ -164,8 +165,18 @@
             width: 50px;
             height: 50px;
             position: absolute;
-            left: 49%;
-            top: 67%;
+            right: 6%;
+            bottom: 12%;
+        }
+
+        .active {
+            background-size: 100% 100%;
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 10%;
+            bottom: 20%;
         }
     </style>
 </head>
@@ -179,6 +190,9 @@
     <div id="content">
         <div id="start" class="start" @click="toggle">
             <img v-bind:src="rule.image" width="50" height="50">
+        </div>
+        <div id="active" class="active" :style="{display:running ? 'block' : 'none'}">
+            <img v-bind:src="rule.activeImage" width="200" height="200">
         </div>
         <div id="tools" class="tools">
             <div @click="onClick(rule.amount)" class="pure-button" :class="{'button-error': selected == rule.amount}">
@@ -301,15 +315,18 @@
                                 $('#main').addClass('mask');
                             }, 300);
                         } else {
+                            //播放音乐
                             var audio = document.getElementById('music');
+                            audio.load();
                             audio.play();
+
                             $('#start').css('display', 'none');
                             $('#main').removeClass('mask');
                             TagCanvas.SetSpeed('myCanvas', [5, 1]);
                             var _this = this;
                             setTimeout(function () {
                                 _this.toggle();
-                            }, 7000);
+                            }, 12000);
                         }
                         this.running = !this.running;
                     }

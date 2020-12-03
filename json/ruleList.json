@@ -3,9 +3,9 @@
     "lotteryGuest" : "",
     "prize" : "搅拌机",
     "amount" : "30",
-    "image" : "/image/1.jpg",
-    "activeImage" : "/image/1.jpg",
-    "activeMusic" : "/music/1.mp3",
+    "image" : "./image/1.jpg",
+    "activeImage" : "./image/1.gif",
+    "activeMusic" : "./music/1.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -13,9 +13,9 @@
     "lotteryGuest" : "",
     "prize" : "蓝牙音箱灯",
     "amount" : "30",
-    "image" : "/image/2.jpg",
-    "activeImage" : "/image/2.jpg",
-    "activeMusic" : "/music/2.mp3",
+    "image" : "./image/2.jpg",
+    "activeImage" : "./image/2.gif",
+    "activeMusic" : "./music/1.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -23,9 +23,9 @@
     "lotteryGuest" : "",
     "prize" : "血压计",
     "amount" : "30",
-    "image" : "/image/3.jpg",
-    "activeImage" : "/image/3.jpg",
-    "activeMusic" : "/music/3.mp3",
+    "image" : "./image/3.jpg",
+    "activeImage" : "./image/3.gif",
+    "activeMusic" : "./music/1.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -33,9 +33,9 @@
     "lotteryGuest" : "",
     "prize" : "剃须刀",
     "amount" : "30",
-    "image" : "/image/4.jpg",
-    "activeImage" : "/image/4.jpg",
-    "activeMusic" : "/music/4.mp3",
+    "image" : "./image/4.jpg",
+    "activeImage" : "./image/4.gif",
+    "activeMusic" : "./music/1.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -43,9 +43,9 @@
     "lotteryGuest" : "",
     "prize" : "电热水瓶",
     "amount" : "30",
-    "image" : "/image/5.jpg",
-    "activeImage" : "/image/5.jpg",
-    "activeMusic" : "/music/5.mp3",
+    "image" : "./image/5.jpg",
+    "activeImage" : "./image/5.gif",
+    "activeMusic" : "./music/5.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -53,9 +53,9 @@
     "lotteryGuest" : "",
     "prize" : "电动牙刷",
     "amount" : "30",
-    "image" : "/image/6.jpg",
-    "activeImage" : "/image/6.jpg",
-    "activeMusic" : "/music/6.mp3",
+    "image" : "./image/6.jpg",
+    "activeImage" : "./image/6.gif",
+    "activeMusic" : "./music/6.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -63,9 +63,9 @@
     "lotteryGuest" : "",
     "prize" : "台灯",
     "amount" : "30",
-    "image" : "/image/7.jpg",
-    "activeImage" : "/image/7.jpg",
-    "activeMusic" : "/music/7.mp3",
+    "image" : "./image/7.jpg",
+    "activeImage" : "./image/7.gif",
+    "activeMusic" : "./music/7.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -73,9 +73,9 @@
     "lotteryGuest" : "",
     "prize" : "杀菌灯",
     "amount" : "30",
-    "image" : "/image/8.jpg",
-    "activeImage" : "/image/8.jpg",
-    "activeMusic" : "/music/8.mp3",
+    "image" : "./image/8.jpg",
+    "activeImage" : "./image/8.gif",
+    "activeMusic" : "./music/8.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -83,9 +83,9 @@
     "lotteryGuest" : "",
     "prize" : "挂烫机",
     "amount" : "30",
-    "image" : "/image/9.jpg",
-    "activeImage" : "/image/9.jpg",
-    "activeMusic" : "/music/9.mp3",
+    "image" : "./image/9.jpg",
+    "activeImage" : "./image/9.gif",
+    "activeMusic" : "./music/9.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -93,9 +93,9 @@
     "lotteryGuest" : "",
     "prize" : "冲牙器",
     "amount" : "30",
-    "image" : "/image/10.jpg",
-    "activeImage" : "/image/10.jpg",
-    "activeMusic" : "/music/10.mp3",
+    "image" : "./image/10.jpg",
+    "activeImage" : "./image/10.gif",
+    "activeMusic" : "./music/10.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -103,9 +103,9 @@
     "lotteryGuest" : "",
     "prize" : "颈椎按摩器",
     "amount" : "30",
-    "image" : "/image/11.jpg",
-    "activeImage" : "/image/11.jpg",
-    "activeMusic" : "/music/11.mp3",
+    "image" : "./image/11.jpg",
+    "activeImage" : "./image/11.gif",
+    "activeMusic" : "./music/11.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -113,9 +113,9 @@
     "lotteryGuest" : "",
     "prize" : "咖啡机",
     "amount" : "30",
-    "image" : "/image/12.jpg",
-    "activeImage" : "/image/12.jpg",
-    "activeMusic" : "/music/12.mp3",
+    "image" : "./image/12.jpg",
+    "activeImage" : "./image/12.gif",
+    "activeMusic" : "./music/12.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -123,9 +123,9 @@
     "lotteryGuest" : "",
     "prize" : "电饭煲",
     "amount" : "30",
-    "image" : "/image/13.jpg",
-    "activeImage" : "/image/13.jpg",
-    "activeMusic" : "/music/13.mp3",
+    "image" : "./image/13.jpg",
+    "activeImage" : "./image/13.gif",
+    "activeMusic" : "./music/13.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -133,9 +133,9 @@
     "lotteryGuest" : "",
     "prize" : "吸尘器",
     "amount" : "30",
-    "image" : "/image/14.jpg",
-    "activeImage" : "/image/14.jpg",
-    "activeMusic" : "/music/14.mp3",
+    "image" : "./image/14.jpg",
+    "activeImage" : "./image/14.gif",
+    "activeMusic" : "./music/14.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -143,9 +143,9 @@
     "lotteryGuest" : "",
     "prize" : "电子猫眼",
     "amount" : "30",
-    "image" : "/image/15.jpg",
-    "activeImage" : "/image/15.jpg",
-    "activeMusic" : "/music/15.mp3",
+    "image" : "./image/15.jpg",
+    "activeImage" : "./image/15.gif",
+    "activeMusic" : "./music/15.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -153,9 +153,9 @@
     "lotteryGuest" : "",
     "prize" : "净水器",
     "amount" : "30",
-    "image" : "/image/16.jpg",
-    "activeImage" : "/image/16.jpg",
-    "activeMusic" : "/music/16.mp3",
+    "image" : "./image/16.jpg",
+    "activeImage" : "./image/16.gif",
+    "activeMusic" : "./music/16.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -163,9 +163,9 @@
     "lotteryGuest" : "",
     "prize" : "电压力锅",
     "amount" : "30",
-    "image" : "/image/17.jpg",
-    "activeImage" : "/image/17.jpg",
-    "activeMusic" : "/music/17.mp3",
+    "image" : "./image/17.jpg",
+    "activeImage" : "./image/17.gif",
+    "activeMusic" : "./music/17.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -173,9 +173,9 @@
     "lotteryGuest" : "",
     "prize" : "卷发棒",
     "amount" : "30",
-    "image" : "/image/18.jpg",
-    "activeImage" : "/image/18.jpg",
-    "activeMusic" : "/music/18.mp3",
+    "image" : "./image/18.jpg",
+    "activeImage" : "./image/18.gif",
+    "activeMusic" : "./music/18.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -183,9 +183,9 @@
     "lotteryGuest" : "",
     "prize" : "渗透仪",
     "amount" : "20",
-    "image" : "/image/19.jpg",
-    "activeImage" : "/image/19.jpg",
-    "activeMusic" : "/music/19.mp3",
+    "image" : "./image/19.jpg",
+    "activeImage" : "./image/19.gif",
+    "activeMusic" : "./music/19.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -193,9 +193,9 @@
     "lotteryGuest" : "",
     "prize" : "台式电动洗碗机",
     "amount" : "20",
-    "image" : "/image/20.jpg",
-    "activeImage" : "/image/20.jpg",
-    "activeMusic" : "/music/20.mp3",
+    "image" : "./image/20.jpg",
+    "activeImage" : "./image/20.gif",
+    "activeMusic" : "./music/20.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -203,9 +203,9 @@
     "lotteryGuest" : "",
     "prize" : "蒸烤箱",
     "amount" : "10",
-    "image" : "/image/21.jpg",
-    "activeImage" : "/image/21.jpg",
-    "activeMusic" : "/music/21.mp3",
+    "image" : "./image/21.jpg",
+    "activeImage" : "./image/21.gif",
+    "activeMusic" : "./music/21.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -213,9 +213,9 @@
     "lotteryGuest" : "",
     "prize" : "电子锁",
     "amount" : "10",
-    "image" : "/image/22.jpg",
-    "activeImage" : "/image/22.jpg",
-    "activeMusic" : "/music/22.mp3",
+    "image" : "./image/22.jpg",
+    "activeImage" : "./image/22.gif",
+    "activeMusic" : "./music/22.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -223,9 +223,9 @@
     "lotteryGuest" : "",
     "prize" : "华为手环4-pro",
     "amount" : "30",
-    "image" : "/image/23.jpg",
-    "activeImage" : "/image/23.jpg",
-    "activeMusic" : "/music/23.mp3",
+    "image" : "./image/23.jpg",
+    "activeImage" : "./image/23.gif",
+    "activeMusic" : "./music/23.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -233,9 +233,9 @@
     "lotteryGuest" : "",
     "prize" : "华为儿童电话手表-儿童电话手表3s",
     "amount" : "20",
-    "image" : "/image/24.jpg",
-    "activeImage" : "/image/24.jpg",
-    "activeMusic" : "/music/24.mp3",
+    "image" : "./image/24.jpg",
+    "activeImage" : "./image/24.gif",
+    "activeMusic" : "./music/24.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -243,9 +243,9 @@
     "lotteryGuest" : "",
     "prize" : "华为蓝牙耳机-FreeBuds3 无线",
     "amount" : "20",
-    "image" : "/image/25.jpg",
-    "activeImage" : "/image/25.jpg",
-    "activeMusic" : "/music/25.mp3",
+    "image" : "./image/25.jpg",
+    "activeImage" : "./image/25.gif",
+    "activeMusic" : "./music/25.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -253,9 +253,9 @@
     "lotteryGuest" : "",
     "prize" : "大疆云台-DJI OM 4",
     "amount" : "20",
-    "image" : "/image/26.jpg",
-    "activeImage" : "/image/26.jpg",
-    "activeMusic" : "/music/26.mp3",
+    "image" : "./image/26.jpg",
+    "activeImage" : "./image/26.gif",
+    "activeMusic" : "./music/26.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -263,9 +263,9 @@
     "lotteryGuest" : "",
     "prize" : "大疆无人机-Mavic Air 2 畅飞套装",
     "amount" : "5",
-    "image" : "/image/27.jpg",
-    "activeImage" : "/image/27.jpg",
-    "activeMusic" : "/music/27.mp3",
+    "image" : "./image/27.jpg",
+    "activeImage" : "./image/27.gif",
+    "activeMusic" : "./music/27.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -273,9 +273,9 @@
     "lotteryGuest" : "",
     "prize" : "小米-扫地机器人扫拖一体",
     "amount" : "10",
-    "image" : "/image/28.jpg",
-    "activeImage" : "/image/28.jpg",
-    "activeMusic" : "/music/28.mp3",
+    "image" : "./image/28.jpg",
+    "activeImage" : "./image/28.gif",
+    "activeMusic" : "./music/28.mp3",
     "editFlag" : false,
     "startFlag" : true
 },{
@@ -283,9 +283,9 @@
     "lotteryGuest" : "",
     "prize" : "小米-定制版Ninebot 九号平衡车",
     "amount" : "10",
-    "image" : "/image/29.jpg",
-    "activeImage" : "/image/29.jpg",
-    "activeMusic" : "/music/29.mp3",
+    "image" : "./image/29.jpg",
+    "activeImage" : "./image/29.gif",
+    "activeMusic" : "./music/29.mp3",
     "editFlag" : false,
     "startFlag" : true
 }]
