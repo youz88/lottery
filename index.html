@@ -261,7 +261,7 @@
                         if (m.index <= limit) {
                             list[m.index].style.color = color;
                         }
-                        return m.name + '<br/>' + m.phone;
+                        return m.name + '<br/>' + m.phone + '  ' + m.location;
                     });
                 localStorage.setItem('choosed', JSON.stringify(choosed));
                 // console.log(ret)
