@@ -261,7 +261,7 @@
                         if (m.index <= limit) {
                             list[m.index].style.color = color;
                         }
-                        return m.name + '<br/>' + m.phone + '  ' + m.location;
+                        return m;
                     });
                 localStorage.setItem('choosed', JSON.stringify(choosed));
                 // console.log(ret)
@@ -312,12 +312,19 @@
                                 $('#result').css('display', 'block').html('<span>已抽完</span>');
                                 return
                             }
-                            $('#result').css('display', 'block').html('<span>' + ret.join('</span><span>') + '</span>');
+                            var showIndexArr = [];
+                            var showResultArr = [];
+                            for (var i in ret) {
+                                var m = ret[i];
+                                showIndexArr.push(m.name + '<br/>' + m.phone);
+                                showResultArr.push(m.name + '<br/>' + m.phone + '  ' + m.location);
+                            }
+                            $('#result').css('display', 'block').html('<span>' + showIndexArr.join('</span><span>') + '</span>');
                             TagCanvas.Reload('myCanvas');
                             setTimeout(function () {
                                 var prize = lotteryVue.$data.rule.prize;
-                                ret.unshift("------------------" + prize + "------------------");
-                                localStorage.setItem(new Date().toString(), JSON.stringify(ret));
+                                showResultArr.unshift("------------------" + prize + "------------------");
+                                localStorage.setItem(new Date().toString(), JSON.stringify(showResultArr));
                                 $('#main').addClass('mask');
                             }, 300);
                         } else {
@@ -332,7 +339,7 @@
                             var _this = this;
                             setTimeout(function () {
                                 _this.toggle();
-                            }, 12000);
+                            }, 7000);
                         }
                         this.running = !this.running;
                     }
