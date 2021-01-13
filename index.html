@@ -318,7 +318,9 @@
                     toggle: function () {
                         if (this.running) {
                             var audio = document.getElementById('music');
-                            audio.pause();
+                            if (audio != null) {
+                                audio.pause();
+                            }
                             $('#start').css('display', 'none');
                             TagCanvas.SetSpeed('myCanvas', speed());
                             var ret = lottery(this.selected);
