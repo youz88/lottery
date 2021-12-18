@@ -239,13 +239,17 @@
                 html.push('</ul>');
                 return html.join('');
             };
-            var lottery = function (count) {
+            var lottery = function (count, prizeIndex) {
                 var list = canvas.getElementsByTagName('a');
                 var color = 'yellow';
                 var ret = member
                     .filter(function (m, index) {
                         m.index = index;
-                        return !choosed[getKey(m)];
+                        if (m.prizeIndex) {
+                            return !choosed[getKey(m)] && m.prizeIndex == prizeIndex;
+                        } else {
+                            return !choosed[getKey(m)];
+                        }
                     })
                     .map(function (m) {
                         return Object.assign({
@@ -307,7 +311,7 @@
                             audio.pause();
                             $('#start').css('display', 'none');
                             TagCanvas.SetSpeed('myCanvas', speed());
-                            var ret = lottery(this.selected);
+                            var ret = lottery(this.selected, this.rule.id);
                             if (ret.length === 0) {
                                 $('#result').css('display', 'block').html('<span>已抽完</span>');
                                 return
