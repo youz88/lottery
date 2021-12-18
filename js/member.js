@@ -1,6 +1,6 @@
 var member = [
-    { "phone": "70593047", "name": "徐文利", "location": "上海" },
-    { "phone": "75600005", "name": "陈倩茹", "location": "广州" },
+    { "phone": "70593047", "name": "徐文利", "location": "上海", "prizeIndex": 30, "score": 0 },
+    { "phone": "75600005", "name": "陈倩茹", "location": "广州", "prizeIndex": 21, "score": 0 },
     { "phone": "70596178", "name": "陈西拉", "location": "杭州" },
     { "phone": "75600009", "name": "付国强", "location": "北京" },
     { "phone": "70506624", "name": "陈来永", "location": "上海" },
